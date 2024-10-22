@@ -1,5 +1,5 @@
 {% set name = "NEAT" %}
-{% set version = "4.0" %}
+{% set version = "4.2.6" %}
 
 package:
   name: '{{ name|lower }}'
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ncsa/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 89abf23f202e4e93fc333a2b6f2a7c7b63ef3db691f8372b659d8627df3616c3
+  sha256: 04348e0539b6259ebd4a48a2c60325f04ee0b49323243ceedd675655ba9f94d6
   
 
 build:
